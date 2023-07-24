@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="lg:w-[53rem] sm:w-[40rem] m-auto navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Item 1</a></li>
+              <li>
+                <a>Parent</a>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </li>
+              <li><a>Item 3</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Item 1</a></li>
+            <li tabindex="0">
+              <details>
+                <summary>Parent</summary>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </details>
+            </li>
+            <li><a>Item 3</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn">Button</a>
+        </div>
+      </div>
+      <div class="lg:w-[50rem] m-auto sm:w-[100%] ">
+        <img src="images/banner.png" alt="banner">
+      </div>
+
+
+
+
+      <div class="container m-auto lg:w-[50rem] justify-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        
+        <div class="card bg-base-100 hover:bg-gray-200  rounded-sm ">
+            <figure class="px-10 pt-10">
+              <img src="images/divorce.png" alt="divorce">
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+            </div>
+          </div>
+
+
+          <div class="card bg-base-100  border-solid border-[1px] border-gray-300 rounded-sm  hover:bg-gray-200">
+              <figure class="px-10 pt-10">
+                <img src="images/divorce.png" alt="divorce">
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+              </div>
+            </div>
+
+
+            <div class="card bg-base-100  hover:bg-gray-200  rounded-sm ">
+                <figure class="px-10 pt-10">
+                  <img src="images/divorce.png" alt="divorce">
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                </div>
+            </div>
+      </div>
+
+      <div class="lg:w-[50rem] m-auto border-[1px]"></div>
+
+      <div class="container m-auto lg:w-[50rem] justify-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        
+        <div class="card bg-base-100 hover:bg-gray-200  rounded-sm ">
+            <figure class="px-10 pt-10">
+              <img src="images/divorce.png" alt="divorce">
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+            </div>
+          </div>
+
+
+          <div class="card bg-base-100  border-solid border-[1px] border-gray-300 rounded-sm  hover:bg-gray-200 border-y-red-50">
+              <figure class="px-10 pt-10">
+                <img src="images/divorce.png" alt="divorce">
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+              </div>
+            </div>
+
+
+            <div class="card bg-base-100  hover:bg-gray-200  rounded-sm ">
+                <figure class="px-10 pt-10">
+                  <img src="images/divorce.png" alt="divorce">
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                </div>
+              </div>
+          <hr>
+      </div>
+      <!-- container m-auto lg:w-[50rem] justify-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 -->
+      <section>
+        <div class="container m-auto lg:w-[36rem] justify-center text-center mt-6">
+          <h2 class="text-2xl">Frequently Asked Any Questions</h2>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+            suffered alteration in some form, by injected humour.</p>
+        </div>
+        <div class="container m-auto lg:w-[50rem] justify-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-11">
+          <div class="space-y-5 lg:w-96">
+            <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-200">
+              <div class="collapse-title text-xl font-medium">
+                Focus me to see content
+              </div>
+              <div class="collapse-content"> 
+                <p>tabindex="0" attribute is necessary to make the div focusable</p>
+              </div>
+            </div>
+            <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-200">
+              <div class="collapse-title text-xl font-medium">
+                Focus me to see content
+              </div>
+              <div class="collapse-content"> 
+                <p>tabindex="0" attribute is necessary to make the div focusable</p>
+              </div>
+            </div>
+            <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-200">
+              <div class="collapse-title text-xl font-medium">
+                Focus me to see content
+              </div>
+              <div class="collapse-content"> 
+                <p>tabindex="0" attribute is necessary to make the div focusable</p>
+              </div>
+            </div>
+            <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-200">
+              <div class="collapse-title text-xl font-medium">
+                Focus me to see content
+              </div>
+              <div class="collapse-content"> 
+                <p>tabindex="0" attribute is necessary to make the div focusable</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img class="lg:ml-44" src="images/faq.png" alt="faq">
+          </div>
+        </div>
+      </section>
+</body>
+</html>
